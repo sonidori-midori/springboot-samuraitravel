@@ -93,7 +93,7 @@ public class ReservationService {
 		
 		LocalDate checkinDate = LocalDate.parse(sessionMetadata.get("checkinDate"));
 		LocalDate checkoutDate = LocalDate.parse(sessionMetadata.get("checkoutDate"));
-		Integer numberOfPeople = Integer.valueOf(sessionMetadata.get("numberPeople"));
+		Integer numberOfPeople = Integer.valueOf(sessionMetadata.get("numberOfPeople"));
 		Integer amount = Integer.valueOf(sessionMetadata.get("amount"));
 		
 		reservation.setHouse(house);
